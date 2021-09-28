@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+div, p, input, header, a, form {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
