@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    background-color: #000;
+}
+
+div, p, input, header, a, form {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-position: inside;
+    list-style: #E8882F;
+}
+
+li {
+    color: #E8882F;
+}
+
+li span {
+    color: #000;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 30px 0 50px;  
+}
+
+.section h1 {
+    margin-bottom: 40px;
+}
+
+.photo {
+    margin-bottom: 50px;
+}
+.porfolio_items {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.porfolio_items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+video {
+    width: 100%;
+
+}
