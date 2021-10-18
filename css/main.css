@@ -1,9 +1,9 @@
 body {
     padding: 0;
     margin: 0;
-    color: #fff;
+    color: #000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 17px;
 }
 
 div, p, input, header, a, form {
@@ -16,10 +16,34 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 ul, li {
-    display: block;
     margin: 0;
     padding: 0;
+}
+
+ul {
+    list-style-position: inside;
+    list-style: #E8882F;
+}
+
+li {
+    color: #E8882F;
+}
+
+li span {
+    color: #000;
 }
 
 p {
@@ -35,4 +59,472 @@ a {
 .container {
     width: 1170px;
     margin: 0 auto;
+}
+
+.header {
+    padding: 45px 0 50px;
+    background: #000 url('../img/offer.png') no-repeat center top;
+    background-size: 100%;
+}
+
+.nav {
+    display: flex;
+
+}
+
+.logo {
+    margin-right: 50px;
+    display: block;
+}
+
+.phone {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 0;
+}
+
+.offer {
+    margin: 200px 0 200px;
+    color: #fff;
+}
+
+.offer p {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #c07431;
+    display: block;
+    padding: 10px 0;  
+    width: 220px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #c45f02;
+    transition: background-color 0.5s ease 0s;
+}
+
+.btn a {
+    width: 100%;
+    display: block;
+}
+
+.about_me {
+    background: url('../img/about.png') no-repeat center top;
+    background-size: 100%;
+    padding: 50px 0;
+}
+
+.all_about {
+    display: flex;
+}
+.about_text {
+    color: #000;
+    padding-left: 600px;
+}
+
+.about_text h2 {
+    margin-bottom: 30px;
+}
+
+.about_text h4 {
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.about_text p {
+    width: 518px;
+}
+
+.about_text ul {
+    margin-top: 30px;
+}
+
+.about_text li {
+    padding-bottom: 15px;
+}
+
+.porfolio {
+    background: #000;
+    padding: 50px 0;
+}
+
+.porfolio_items {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.porfolio_items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+.item1 {
+    background: url('../img/img_head.png') no-repeat center top;
+    background-size: 100%;
+}
+
+.item1 h2 {
+    padding: 10px 0 0 15px;
+    color: #fff;
+}
+
+.porfolio .btn {
+    margin: 20px auto 0 ;
+}
+
+.do {
+    padding: 50px 0;
+}
+
+.do h2 {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.do_items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.do_items img {
+    margin-bottom: 26px;
+}
+
+.do_items h4 {
+    margin-bottom: 16px;
+    font-size: 25px;
+}
+
+.do_tabs {
+    text-align: center;
+    width: 314px;
+}
+
+.costs {
+    padding: 50px 0;
+    background: #000;
+}
+
+.cost_items {
+    display: flex;
+    justify-content: space-between;
+}
+.costs h2 {
+    text-align-last: right;
+    margin-bottom: 60px;
+    color: #fff;
+}
+
+.cost_tabs  {
+    background: rgba(255, 255, 255, 0.95);
+    width: 350px;
+    padding: 50px 30px 70px;
+}
+
+.cost_items .btn {
+    width: 100%;
+}
+
+.cost_tabs h3 {
+    margin-bottom: 50px;
+    width: 232px;
+}
+
+.cost_tabs ul {
+    margin-bottom: 50px;
+}
+
+.cost_tabs li {
+    margin-bottom: 25px;
+    
+}
+
+.feedbacks {
+    padding: 50px 0;
+}
+
+.feedbacks h2 {
+    margin-bottom: 60px;
+}
+
+.feedback_item {
+    display: flex;
+    min-width: 0;
+}
+
+.review_text {
+    margin: auto;
+    width: 530px;
+}
+
+.author {
+    padding-top: 20px;
+    text-align: right;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.slick-dots li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    width: 50px;
+    height: 20px;
+    background-color: rgba(196, 196, 196, 0.69);;
+    border: none;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #FF7B00;
+}
+
+.form {
+    padding: 50px 0;
+    background: url('../img/info.png') no-repeat center top;
+    background-size: 100%;
+    text-align: center;
+}
+
+.form_items h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.form_inputs {
+    margin: 0 auto;
+    width: 480px;
+}
+
+.form_inputs input {
+    display: block;
+    width: 480px;
+    padding: 13px 387px 13px 40px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.form_inputs input:nth-child(3n) {
+    margin-bottom: 30px;
+}
+
+.form_items .btn {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+}
+
+.info {
+    padding: 50px 0px;
+    background-color: #000;
+}
+
+.footer_nav {
+    display: flex;
+    align-items: center;
+}
+
+.footer_nav .logo {
+    margin-right: 30px;
+}
+
+.nav_items {
+    margin: 0 auto;
+}
+
+.logo_phone {
+    display: flex;
+}
+
+.nav_items a {
+    margin-right: 15px;
+}
+
+.nav_items a:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.social {
+    justify-content: end;
+}
+
+.social img {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .header {
+        background: #000 url('../img/offer_mobile.png') no-repeat center top;
+        background-size: 100%;
+    }
+
+    .nav {
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .phone {
+        font-size: 20px;
+    }
+
+    .offer {
+        margin: 300px 0 50px;
+    }
+
+    .offer p {
+        width: 100%;
+    }
+
+    .about_me {
+        background: url('../img/about_mobile.png') no-repeat center top;
+        background-size: 100%;
+    }
+
+    .about_text {
+        padding: 0;
+        margin: 370px 0 0;
+    }
+
+    .about_text p {
+        width: 100%;
+    }
+
+    .porfolio_items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .do_items {
+        display: block;
+    }
+
+    .do_items h4 {
+        font-size: 21px;
+    }
+
+    .do_tabs {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .do_tabs:nth-child(3n) {
+        margin-bottom: 0px;
+    }
+
+    .cost_items {
+        display: block;
+    }
+
+    .cost_tabs {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .cost_tabs:nth-child(3n) {
+        margin-bottom: 0;
+    }
+
+    .feedbacks h2 {
+        margin-bottom: 30px;
+    }
+
+    .photo_review {
+        margin-bottom: 20px;
+    }
+    
+    .feedback_item {
+        display: block;
+    }
+
+    .review_text {
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form {
+        background: url('../img/info_mobile.png') no-repeat center top;
+        background-size: 100%;
+    }
+
+    .form_inputs {
+        width: 100%;
+    }
+
+    .form_inputs input {
+        width: 100%;
+        padding: 13px 274px 13px 40px
+    }
+
+    .form_items .btn {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_nav {
+        display: block;
+    }
+
+    .logo_phone {
+        margin-bottom: 15px;
+    }
+
+    .nav_items {
+        margin-bottom: 20px;
+    }
+
+
+
+
 }
