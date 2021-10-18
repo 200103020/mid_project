@@ -332,10 +332,17 @@ a {
     margin-bottom: 30px;
 }
 
-.form_items .btn {
-    margin: 0 auto;
+.btn_form {
+    margin: 20px auto 0;
     width: 400px;
+    border: none;
+    color: #fff;
     text-align: center;
+    background-color: #c07431;
+    display: block;
+    padding: 10px 0;  
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .info {
@@ -374,6 +381,40 @@ a {
 
 .social img {
     margin-right: 10px;
+}
+
+#myModal {
+    width: 286px;
+    height: 105px;
+    padding: 45px 9px;
+    border-radius: 4px;
+    background: #fafafa;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin: auto;
+    display: none;
+    opacity: 0;
+    z-index: 38;
+    text-align: center;
+}
+
+#myModal #myModal__close {
+    width: 21px; height: 21px;
+    position: absolute;
+    font-size: 29px;
+    top: 1px; right: 11px;
+    cursor: pointer;
+    display: block;
+}
+
+#myOverlay {
+    z-index: 37;
+    position: fixed;
+    background: rgba(0,0,0,.7);
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    cursor: pointer;
+    display: none;
 }
 
 @media screen and (max-width: 576px) {
